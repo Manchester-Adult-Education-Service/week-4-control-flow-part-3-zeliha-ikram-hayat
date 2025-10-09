@@ -62,7 +62,11 @@ print(f"Hello {user_name}, {user_colour} is a nice colour")
 # 3. Print a message if the condition is True and a different message if False
 
 # Write your code below:
-
+user_age = int(input("How old are you?"))
+if user_age > 18:
+    print("you can join the club")
+else:
+    print("you can not attend the club")
 
 # Now switch to the next learner's computer!
 
