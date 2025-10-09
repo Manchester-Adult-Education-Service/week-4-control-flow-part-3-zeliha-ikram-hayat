@@ -34,7 +34,9 @@
 # 3. Print a message using your variables and f-strings
 
 # Write your code below:
-
+user_name =input("What si your name? \n")
+user_colour = input("What is your favourite colour? \n")
+print(f"Hello {user_name}, {user_colour} is a nice colour")
 
 # Now switch to the next learner's computer!
 
