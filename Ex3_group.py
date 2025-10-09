@@ -96,7 +96,15 @@ else:
 # 3. Write if-elif-else statements with three different messages
 
 # Write your code below:
-
+personal = int(input("enter your age"))
+father = int(input(" enter your father age"))
+if personal < father:
+    print("your father is older than you")
+elif personal == father:
+    print("you are both still young")
+else:
+    print("your father young than you")
+    
 
 # -------------------------------------------
 # Submitting Your Work
