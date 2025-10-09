@@ -104,7 +104,7 @@ elif personal == father:
     print("you are both still young")
 else:
     print("your father young than you")
-    
+
 
 # -------------------------------------------
 # Submitting Your Work
@@ -143,6 +143,11 @@ elif personal < 15 and  father < 50 :
     print("you are not responsibile for yourself")
 else: 
     print("you are both responsibile")
+
+user_year = int(input("what's your preferred year"))
+user_hobby = input("what's you hobby?")
+
+
 
 # -------------------------------------------
 # Submitting Your Work
