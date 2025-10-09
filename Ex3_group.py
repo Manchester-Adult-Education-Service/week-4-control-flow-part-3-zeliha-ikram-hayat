@@ -137,7 +137,12 @@ else:
 # Example scenario: "If age > 15 AND favourite colour is blue, print 'You like blue and are older than 15', else print another message"
 
 # Write your extension code below:
-
+if personal < 17 and father > 50: 
+    print("you are a teenager and your father is responsibile from you")
+elif personal < 15 and  father < 50 :
+    print("you are not responsibile for yourself")
+else: 
+    print("you are both responsibile")
 
 # -------------------------------------------
 # Submitting Your Work
