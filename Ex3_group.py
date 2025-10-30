@@ -148,8 +148,35 @@ user_year = int(input("what's your preferred year"))
 user_hobby = input("what's you hobby?")
 
 
+player = input("Welcome to pair game! Write your ages please!")
 
+ali = int(input("Ali's age: "))
+karim = int(input("Karim's age: "))
+
+result = ali >= 10 and karim <= 20
+print("Result:", result)
+
+if result:
+    print("Ali is older than 10 and Karim is younger than 20.")
+else:
+    print("Condition not met.")
+
+
+name = input("what is your name?")
+age = int(input("how old are you?"))
+color = input("Favourite color?")
+food = input("favourite food?")
+
+if age >15 and (color == "blue" or color == "green" or color == "brown"):
+    print(f"{name}, you like dark colors.You are older than 15!")
+
+elif age > 15 and food == "pizza":
+    print(f"{name}, you are young and you like {food}")
+
+else:
+        print(f"{name} you are complicated!!")
 # -------------------------------------------
+
 # Submitting Your Work
 # -------------------------------------------
 # When you have finished this exercise:
