@@ -34,7 +34,9 @@
 # 3. Print a message using your variables and f-strings
 
 # Write your code below:
-
+user_name =input("What si your name? \n")
+user_colour = input("What is your favourite colour? \n")
+print(f"Hello {user_name}, {user_colour} is a nice colour")
 
 # Now switch to the next learner's computer!
 
@@ -60,7 +62,11 @@
 # 3. Print a message if the condition is True and a different message if False
 
 # Write your code below:
-
+user_age = int(input("How old are you?"))
+if user_age > 18:
+    print("you can join the club")
+else:
+    print("you can not attend the club")
 
 # Now switch to the next learner's computer!
 
@@ -90,6 +96,14 @@
 # 3. Write if-elif-else statements with three different messages
 
 # Write your code below:
+personal = int(input("enter your age"))
+father = int(input(" enter your father age"))
+if personal < father:
+    print("your father is older than you")
+elif personal == father:
+    print("you are both still young")
+else:
+    print("your father young than you")
 
 
 # -------------------------------------------
@@ -123,9 +137,46 @@
 # Example scenario: "If age > 15 AND favourite colour is blue, print 'You like blue and are older than 15', else print another message"
 
 # Write your extension code below:
+if personal < 17 and father > 50: 
+    print("you are a teenager and your father is responsibile from you")
+elif personal < 15 and  father < 50 :
+    print("you are not responsibile for yourself")
+else: 
+    print("you are both responsibile")
+
+user_year = int(input("what's your preferred year"))
+user_hobby = input("what's you hobby?")
 
 
+player = input("Welcome to pair game! Write your ages please!")
+
+ali = int(input("Ali's age: "))
+karim = int(input("Karim's age: "))
+
+result = ali >= 10 and karim <= 20
+print("Result:", result)
+
+if result:
+    print("Ali is older than 10 and Karim is younger than 20.")
+else:
+    print("Condition not met.")
+
+
+name = input("what is your name?")
+age = int(input("how old are you?"))
+color = input("Favourite color?")
+food = input("favourite food?")
+
+if age >15 and (color == "blue" or color == "green" or color == "brown"):
+    print(f"{name}, you like dark colors.You are older than 15!")
+
+elif age > 15 and food == "pizza":
+    print(f"{name}, you are young and you like {food}")
+
+else:
+        print(f"{name} you are complicated!!")
 # -------------------------------------------
+
 # Submitting Your Work
 # -------------------------------------------
 # When you have finished this exercise:
